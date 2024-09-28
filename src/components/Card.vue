@@ -22,6 +22,7 @@ defineProps({
       class="absolute top-5 left-5"
       @click="onClickFavorite"
     />
+
     <img :src="imageUrl" alt="Sneaker" />
 
     <p class="mt-2">{{ title }}</p>
